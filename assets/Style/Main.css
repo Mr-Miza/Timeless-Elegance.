@@ -1,0 +1,159 @@
+body{
+    background-color: rgba(47, 76, 184, 0.263);
+}
+nav {
+    background-color: #0529aa;
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+}
+#Logo {
+    width: 80px;
+    height: 70px;
+    margin-left:20px ;
+}
+li {
+    display:inline-block;
+    padding: 5px;
+    
+}
+li:hover{
+    background-color: rgb(25, 90, 230);   
+    border-radius: 10%;
+}
+nav ul li a {
+    color: bisque;
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+}
+#Intro {
+    background-color: rgba(42, 104, 174, 0.596);
+    width: 100%;
+    height: 500px;
+    position: relative ;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+#MainImg{
+        width: auto;
+        height: auto;
+        max-width: calc(100% - 20px); /* Adjust the gap by changing the value */
+        max-height: calc(100% - 20px); /* Adjust the gap by changing the value */
+        position: absolute  ;
+        top: 18px; /* Adjust the top gap by changing the value */
+        right: 0px; /* Adjust the right gap by changing the value */
+    }
+    /* adds animation , fading animation */ 
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes blakn {
+        to{
+            background-color: black;
+        }
+        
+    }
+    .Content {
+        position: relative;
+        width: auto;
+        height: auto;
+        max-width: calc(100% - 20px); 
+        max-height: calc(100% - 20px);
+        
+    }
+    .Description {
+     animation: fadeIn 2.5s ease-out;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 35px;
+     color: rgb(255, 255, 255);
+     margin-left: 100px;
+     position: relative;
+     display: block;
+    }
+    .Styler {
+        width: 100% ;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        right: 0px;
+        border-top-left-radius: 100%;
+    }
+    #mainContent{
+        background-color: rgba(42, 104, 174, 0.596);
+        width: 100%;
+        height: 500px;
+        position: relative ;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        animation: blakn 4s forwards; 
+    }
+    #second{
+        width: auto;
+        height: auto;
+        max-width: calc(50% - 20px); /* Adjust the gap by changing the value */
+        max-height: calc(100% - 20px); /* Adjust the gap by changing the value */
+        position: absolute  ;
+        top: 30px; /* Adjust the top gap by changing the value */
+        right: 10px; 
+        animation: fadeIn 7s ease-out;
+    }
+    #KingSeiko{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        margin-left: 30px;
+    }
+#Styler1{
+         width: 50% ;
+        height: 95%;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        left: 0px;
+        border-radius: 20% 20% 30% 30%;
+}
+#third{
+    width: auto;
+    height: auto;
+    max-width: calc(100% - 20px); /* Adjust the gap by changing the value */
+    max-height: calc(95% - 20px); /* Adjust the gap by changing the value */
+    position: absolute  ;
+    margin: 10px;
+}
+#EndingContent{
+    background-color: rgba(42, 104, 174, 0.596);
+    width: 100%;
+    height: 500px;
+    position: relative ;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+}
+#Description{
+    animation: fadeIn 2.5s ease-out;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    left:500px;
+}
+#styler2{
+    width: 100% ;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 0px;
+    border-top-right-radius: 100%;
+}
