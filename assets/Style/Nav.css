@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(47, 76, 184, 0.263);
+}
+nav {
+    background-color: #0529aa;
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+}
+#Logo {
+    width: 80px;
+    height: 70px;
+    margin-left:20px ;
+}
+li {
+    display:inline-block;
+    padding: 5px;
+    
+}
+li:hover{
+    background-color: rgb(25, 90, 230);   
+    border-radius: 10%;
+}
+nav ul li a {
+    color: bisque;
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+}

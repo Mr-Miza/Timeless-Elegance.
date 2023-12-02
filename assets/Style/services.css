@@ -1,0 +1,94 @@
+#ServicesType{
+    height: max-content;
+    width: 100% ;
+    background-color: rgba(169, 133, 88, 0.447);
+    position: relative;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+#Fixing {
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns:1fr 1fr auto;
+    column-gap: 20px;
+    position: relative;
+    padding-top: 10px;
+   
+}
+#Prices{
+    height: 500px;
+    background-color: rgb(96, 154, 229);
+    border-radius: 5%;
+    padding: 10px;
+}
+.content {
+    height: 450PX;
+    width: inherit;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 5px;
+    align-self: baseline ;
+    scrollbar-width: thin;
+}
+.content::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(148, 203, 255);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+.content::-webkit-scrollbar-thumb{
+    background-color: rgb(83, 163, 255);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+.styler{
+    background-color: rgb(96, 154, 229);
+    border-radius: 5%;
+    padding: 15px;
+    margin-left: 10px;
+}
+#Delivery{
+    height: max-content;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 900px auto;
+    column-gap: 30px;
+}
+#Text{
+    height: 400px;
+    background-color: rgb(133, 196, 216);
+    margin: 20px;
+    border-radius: 10%;
+}
+#deliveryImg{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 15%;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+.p{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Warranty {
+    height: 300px;
+    background-color: rgb(139, 184, 238);
+    margin: 20px;
+    border-radius: 10%;
+    padding: 20px;
+}
+#EndImg{
+    align-content: center;
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    
+}
