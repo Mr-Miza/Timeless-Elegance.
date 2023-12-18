@@ -6,6 +6,8 @@
     <title>TimelessElegance</title>
     <link rel="stylesheet" href="assets\Style\Nav.css">
     <link rel="stylesheet" href="assets\Style\categories.css">
+    <script src="assets\Javascript\ApiInteraction.js"></script>
+    <script src="assets\Javascript\render.js"></script> 
 </head>
 <body>
     <nav>
@@ -19,7 +21,13 @@
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets\Javascript\category.js"></script> 
-    <script src="assets\Javascript\API.mjs"></script>
+    <script src="assets\Javascript\index.js"></script>
+    <script>
+        // Fetch Seiko watches and render them when the page loads
+        window.onload = async function() {
+          const seikoWatches = await fetchSeikoWatches();
+          renderWatches(seikoWatches, 'watches-list');
+        };
+      </script>
 </body>
 </html>
